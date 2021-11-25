@@ -1,0 +1,245 @@
+
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+     
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AreaCode 51 Lapi's</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="./CSS/styles.css" />
+
+</head>
+
+<body>
+    <!--Nav -->
+    <nav class="navbar navbar-expand-lg px-4 bg-dark fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
+          <span class="toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNav">
+            <ul class="navbar-nav mx-auto text-capitalize">
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Our Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="order">store</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">contacts</a>
+                </li>   
+            </ul>
+            <div class="nav-info-items d-none d-lg-flex text-light">
+                <!-- single info -->
+                <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5">
+                    <span class="info-icon mx-lg-3"><i class="fas fa-phone"></i></span>
+                    <p class="mb-0">+254799017912</p>
+                </div>
+                <!-- end of single info -->
+                <!-- single info -->
+                <div id="cart-info" class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">My Order <i class="fas fa-shopping-cart"></i>(<span class="total-count"></span>)</button>
+                </div>
+            </div>
+          </div>
+           </nav>
+    <!--Modal for cart-->
+          <div class="modal-dialog modal-lg" role="document">
+          <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+             <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel">My Favorites Orders</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                 </div>
+                 <div class="modal-body">
+                    <table class="show-cart table">
+
+                    </table>
+                    <div>Total price: $0 <span class="total-cart"></span></div>
+                   </div>
+                    <div class="modal-footer">
+                    <button class="btn btn-primary"><a href="checkout" class="text-light">CheckOut</a></button>
+                    <button class="clear-cart  btn-btn danger">Clear Cart</button>
+                </div> 
+              </div>
+             </div>
+            </div>
+    <!--Start of header-->
+           <header class="head_section">
+            <div class="text-center">
+            <h1 class="pt-4 text-light">Welcome to Area Code 51 store</h1>
+            <h1 class="pt-4 text-light">Area code 51 sells the best and high quality laptops.</h1>
+            <div class="pt-4">
+             <a href="order" class="btn banner-link text-uppercase my-2">Purchase Now</a>
+            </div>
+          </div>
+        </header>
+    <!--About us Section-->
+        <section class="bg-transparent" id="#about">
+        <h1 class="text-center pt-4">About Us</h1>
+        <div class="text-center pt-4">
+            <p>Area Code 51 deals Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+            <p>It was popularised in the 1960s with the release of Letraset sheets <br> containing Lorem Ipsum passages, and more recently with desktop publishing</p>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. <br>It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            <p>Richard McClintock, a Latin professor at Hampden-Sydney College looked.
+            </p>
+        </div>
+       </section>
+    <!--Services Section-->
+           <section class="bg-dark bg-gradient-light text-light mt-4" id="our-services">
+           <h1 class="text-center pt-4 font-weight-bold">Our Services</h1>
+             <div class="container mx-auto p-4">
+              <div class="row">
+                <div class="col-sm">
+                    <!--Card 1-->
+                       <div class="card" style="width: 18rem;">
+                        <div class="card-body text-dark">
+                        
+                            <h5 class="card-title">Our First Service</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                         </div>
+                        </div>
+                <div class="col-sm">
+                    <!--Card 2-->
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body text-dark">
+                            <h5 class="card-title">Our Second Service</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <!--Card 3-->
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body text-dark">
+                            <h5 class="card-title">Our Third Service</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="readmore" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </section>
+    <!--Gallery + carousel-->
+         <section>
+        <h5 class="text-center pt-4 font-weight-bold text-xl">Our Products</h5>
+        <div class="container carousel slide carousel-multi-item text-center pb-4" data-ride="carousel" id="our-products">
+            <ol class="carousel-indicators">
+                <li data-target="our-products" data-slide-to="0" class="active">Lenovo</li>
+                <li data-target="our-products" data-slide-to="1">Hp</li>
+                <li data-target="our-products" data-slide-to="2">Mac Book 1</li>
+                <li data-target="our-products" data-slide-to="3">Mac Book  2</li>
+                 <li data-target="our-products" data-slide-to="4">Touch-pad 1</li> 
+                <li data-target="our-products" data-slide-to="5">Touch-pad-2</li> 
+                 <li data-target="our-products" data-slide-to="6">Hp icore 5</li> 
+            </ol>
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1000">
+                    <img src="./lenovo-removebg-preview.png" alt="Los Angeles" width="600">
+                    <div class="carousel-caption">
+                        <h3>Lenovo</h3>
+                        <p>Lenovo is always so much fun!</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img src="./Hp-removebg-preview.png" alt="Chicago" width="600">
+                    <div class="carousel-caption">
+                        <h3>Hp</h3>
+                        <p>Nawadeiz doesnt count</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img src="./mac1-removebg-preview.png" alt="New York" width="600">
+                    <div class="carousel-caption">
+                        <h3>Mac Book 1</h3>
+                        <p>1200 Dollars</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img src="./mac2-removebg-preview.png" alt="New York" width="600">
+                    <div class="carousel-caption">
+                        <h3>Mac Book2</h3>
+                        <p>1300 Dollars</p>
+                    </div>
+                </div>
+
+            </div>
+          </div>
+        <!--Items-->
+          <div class="container max-auto pt-4" id="order">
+            <h2 class="text-center font-weight-bold">Order Now</h2>
+            <div class="row">
+                <div class="col-sm">
+                    <!--Card 1-->
+                    <div class="card" style="width: 18rem;">
+                        <img src="./touch pad1.jpg">
+                        <div class="card-body text-dark text-center">
+                            <h5 class="card-title">Touch pad 1</h5>
+                            <h5 class="font-italic">Price $500</h5>
+                            <a href="" data-name="Touch-pad" data-price="500" class="add-to-cart btn btn-primary"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <!--Card 2-->
+                    <div class="card" style="width: 18rem;">
+                        <img src="./touch2-removebg-preview (1).png">
+                        <div class="card-body text-dark text-center">
+                            <h5 class="card-title">Touch pad 2</h5>
+                            <h5 class="font-italic">Price $540</h5>
+                            <a href="" data-name="Touch-pad-2" data-price="540" class="add-to-cart btn btn-primary"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <!--Card 3-->
+                    <div class="card" style="width: 18rem;">
+                        <img src="./HP_icore5-removebg-preview.png">
+                        <div class="card-body text-dark text-center">
+                            <h5 class="card-title">HP icore 5</h5>
+                            <h5 class="font-italic">Price $700</h5>
+                            <a href="" data-name="Hp-icore-7" data-price="700" class="add-to-cart btn btn-primary"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                </div>
+             </div>
+            </div>
+       </section>
+            
+       <!--Footer-->
+      <footer class="bg-dark mt-4">
+        <p class="text-light text-center pt-4">Copyright AreaCode 51 @2021</p>
+        <div class="text-center p-4"> 
+        <p class="text-light font-italic font-weight-bold">Reach us through</p>
+        <a href="facebook.com" target="_blank"> <i class="fab fa-facebook-square text white"></i></a>
+        <a href="gmail.com" target="_blank"> <i class="far fa-envelope-square text-white"></i>
+        </a>
+        <a href="linkedIn.com" target="_blank"> <i class="fab fa-linkedin text-white"></i></a>
+        </div>
+      </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+
+</html>
+
+
+</body>
+</html>
